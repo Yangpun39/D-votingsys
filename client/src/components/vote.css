@@ -1,0 +1,17 @@
+/* Basic input styles */
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Hover and focus effects */
+  input:hover,
+  input:focus {
+    border-color: #3498db; /* Change border color on hover and focus */
+  }
+  

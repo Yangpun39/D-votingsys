@@ -1,0 +1,67 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "v_n",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "v_gpu",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "v_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "choice",
+				"type": "uint256"
+			}
+		],
+		"name": "add",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "owner",
+				"type": "address"
+			}
+		],
+		"name": "display",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "votebank",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

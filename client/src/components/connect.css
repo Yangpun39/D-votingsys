@@ -1,0 +1,21 @@
+/* Darker button styles */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a86b4; /* Darker background color */
+    color: #3ba116;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #1f26a9; /* Even darker background color on hover */
+  }
+  
